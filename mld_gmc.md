@@ -1,0 +1,5 @@
+**TYPE** (**Type_Id**, Type_Name)
+**CATEGORY** (**Category_Id**, Category_Name, Price, Beds_numbers)
+**HOTEL** (**Hotel_Id**, Hotel_name, #Type_Id)
+**ROOM** (**Room_Id**, Floor, #Hotel_Id, #Category_Id)
+**EMPLOYEE** (**Employee_Id**, Employee_Name, Employee_Speciality, #Hotel_Id, #Manager_Id)
